@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ABOUT US</title>
+	<link rel="stylesheet" type="text/css" href="about.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/fontawesome-free-5.9.0-web/css/all.css">
+	<link rel="stylesheet" href="simply.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+
+</head>
+<body>
+	<section>
+        <div class="container-fluid J_header" style="padding-bottom: 7px;">
+          <div class="row">
+            
+            <div class="col-lg-4 ">
+              <span class="fa-pull-left ml-5 mt-2 middle">
+                <a href="#">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+              </a>
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                </span>
+               
+              </span>
+              <a href="#" class="fa-pull-right shadow_icon ">
+                <i class="fas fa-phone-alt" > </i>
+                <span> 7008123456 </span>
+              </a>
+            </div>
+            <div class="col-lg-4">
+              <a class="fa-pull-left shadow_icon" href="mailto: simplilearnblog123@gmail.com">
+                <i class="fas fa-envelope-open-text" style="padding-left: 220px;"> </i>
+                <span> simplilearnblog123@gmail.com </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+        <!--nav-->
+      <nav class="navbar navbar-expand-lg" id="navbar">
+        <a class="navbar-brand ml-2" href="#" style="color:rgb(243, 159, 33); padding-left: 40px; line-height: 30px; font-size: 38px; font-family: colonna MT;">Simply </br>
+          <span class="" style="margin-left: 110px; display: block; font-weight: 700; font-family: gabriola; color: black;">Learn</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+          
+        <div class="collapse navbar-collapse " id="navbarSupportedContent" style="padding-left: 200px;">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html"> HOME <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html" style="padding-left: 30px;">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="newsletter.html" style="padding-left: 30px;">NEWSLETTER</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html" style="padding-left: 30px;">CONTACT</a>
+            </li>
+          </ul>
+          <div class="search-box ">
+            <form class="form-inline mr-4">
+                <input type="text" placeholder="Search...">
+                <button type="submit" value="" class="fa fa-search"> </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!---
+      <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+      </script>
+    -->
+
+      <!--nav end-->
+      <!-- inquiry -->
+
+      <!-- Button trigger modal -->
+      <button type="button" class="feedback" data-toggle="modal" data-target="#exampleModal" style="transform: rotate(90deg);
+      margin-left: -52px; top: 12pc; height: 45px; position: fixed;">Feedback</button>
+
+      <!-- Modal -->
+      <div class="modal fade mt-4" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content fback">
+            <div class="modal-header" style="border-bottom: 1px dashed rgb(32, 80, 80);">
+              <h5 class="modal-title" id="exampleModalLabel" style="color: rgb(253, 77, 7); font-family: gabriola; word-spacing: 7px; letter-spacing: 2px; font-size: 35px;">
+                Submit your feedback</h5>
+              <button type="button" class="close pr-2 pt-0 pb-4 pl-2" style="font-weight: 100;" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body">
+                <form class="form-group">
+                  <div class="row mt-2 ml-1 mr-1">
+                    <div class="col-lg-6 icon">
+                      <i class="far fa-user"></i>
+                      <input type="text" placeholder="Enter name" class="input-border">
+                    </div>
+                    <div class="col-lg-6 icon">
+                      <i class="far fa-envelope"></i>
+                      <input type="text" placeholder="Enter email" class="input-border">
+                    </div> 
+                  </div>
+                  <div class="row ml-1 mr-1">
+                    <div class="col-lg-6 icon">
+                      <i class="fas fa-phone-alt"></i>
+                      <input type="text" placeholder="Enter phone" class=" input-border">
+                    </div>
+                    <div class="col-lg-6 icon">
+                      <i class="fas fa-book"></i>
+                      <input type="text" placeholder="Subject" class=" input-border">
+                    </div> 
+                  </div>
+                  <div class="row mt-3 ml-1 mr-1">
+                    <div class="col-lg-12 icon-tarea">
+                      <textarea class="input-border" name="message" style="background: transparent;" placeholder="Please write your message here......" rows="3"></textarea>
+                    </div>
+                  </div>
+                </form>
+            </div>
+            <div class="">
+               <div center>
+              <button type="button" class="fsubmit">Submit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- inquiry end -->
+	<section>		
+		<div class="xy">
+			<img src="images/slider2.jpg">	
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="container ODevent">
+			<h1 class="mt-5">About Us</h1>
+			<p class="mt-4 ml-4">
+				Simplilearn  is one of the top online bootcamp website in world . which provides wide range of skill up programs
+              that will provide you for free and there are many master program which will make cv strong and inhance your knowledge . we also tie up with many 
+              IIt's and best universities for the certification courses
+			</p>
+		</div>
+	</section>
+	<section>
+		<div class="container mt-5 mb-5 pb-4 ODevent">
+			<h1>Trending Courses </h1>
+			<div class="row inner_row mt-4">
+        			<div class="card mr-3">
+        				<img src="images/ai.jpg">
+        			</div>
+        			<div class="card ml-3">
+        				<img src="images/data.jpg">
+        			</div>
+        	</div>
+		</div>
+	</section>
+	<section>
+		<div class="container pb-5">
+			<div class="pt-5">
+				<h3 style="font-family: monotype corsiva; text-align: center;">Upcoming Events</h3>
+			</div>
+			<div class=" row input_event mt-4 ml-4">
+				<div class="input_date ">
+					<label>Event From</label> </br>
+					<input type="date" name="" placeholder="current-date">
+				</div>
+				<div class="input_search ml-5">
+					<label>Search</label><br>
+					<input type="text" name="" placeholder="Keyword">	
+				</div>	
+				<div class="">
+					<input type="submit" name="" placeholder="" value="FIND EVENTS">	
+				</div>	
+			</div>
+			<div class=" event_loops mt-5">
+				<h2>JANUARY 2021</h2>
+				<div class="event_title pt-4 ">
+					<h3>Post Graduate in Cloud Computing</h3>
+					<div class="event_date pb-3 ">
+						<span class="font1">jan 14 - jan 31</span></br>
+						
+					</div>
+					<div class="event_img " >
+						<img src="images/abbb.jpg">
+					</div>
+					<div class="event_content">
+						<p class="text-justify">	
+							&nbsp; &nbsp; &nbsp; &nbsp; Post Graduate program from Caltech 
+						</p>
+							  Duration : 24 Months </br>
+							  Cohort Starts : jan 14 </br></br>
+							 <span class="more-text">
+							</br> 
+							  Live Classes : 5-10 hours a week  </br>
+						 	  Self-learning : 120 videos </br>
+							  Guest-faculty : 10 classes   </br>  </br>
+
+							  Physical certicate from Caltech
+						 	  4 capstone projects  </br>
+						 	</span>
+							<a class="toggle" style="color: red;">Read More</a>
+
+						</p>		
+					</div>	
+				</div>
+
+				<div class="event_title pt-4 ">
+					<h3>Post Graduate in DevOOPs</h3>
+					<div class="event_date pb-3 ">
+						<span class="font1">jan 17 - jan 31</span></br>
+						
+					</div>
+					<div class="event_img " >
+						<img src="images/abbb.jpg">
+					</div>
+					<div class="event_content">
+						<p class="text-justify">	
+							&nbsp; &nbsp; &nbsp; &nbsp; Post Graduate program from Caltech 
+						</p>
+							  Duration : 12 Months </br>
+							  Cohort Starts : jan 17 </br></br>
+							 <span class="more-text">
+							</br> 
+							  Live Classes : 5-10 hours a week </br> 
+						 	  Self-learning : 120 videos
+							  Guest-faculty : 10 classes   </br>  </br>
+
+							  Physical certicate from Caltech
+						 	  4 capstone projects  </br>
+						 	</span>
+							<a class="toggle" style="color: red;">Read More</a>
+
+						</p>		
+					</div>	
+				</div>
+				<div class="event_title pt-4 ">
+					<h3>Post Graduate in Cyber Security</h3>
+					<div class="event_date pb-3 ">
+						<span class="font1">jan 24 - jan 31</span></br>
+						
+					</div>
+					<div class="event_img " >
+						<img src="images/abbb.jpg">
+					</div>
+					<div class="event_content">
+						<p class="text-justify">	
+							&nbsp; &nbsp; &nbsp; &nbsp; Post Graduate program from IIT Bombay 
+						</p>
+							  Duration : 24 Months </br>
+							  Cohort Starts : jan 30 </br></br>
+							 <span class="more-text">
+							</br> 
+							  Live Classes : 5-10 hours a week </br> 
+						 	  Self-learning : 120 videos
+							  Guest-faculty : 10 classes   </br>  </br>
+
+							  Physical certicate from IIT 
+						 	  4 capstone projects  </br>
+						 	</span>
+							<a class="toggle" style="color: red;">Read More</a>
+
+						</p>		
+					</div>	
+				</div>
+				<div class="event_title pt-4 ">
+					<h3>Post Graduate in AI & ML</h3>
+					<div class="event_date pb-3 ">
+						<span class="font1">jan 26 - feb 14</span></br>
+						
+					</div>
+					<div class="event_img " >
+						<img src="images/abbb.jpg">
+					</div>
+					<div class="event_content">
+						<p class="text-justify">	
+							&nbsp; &nbsp; &nbsp; &nbsp; Post Graduate program from Purdue University  
+						</p>
+							  Duration : 24 Months </br>
+							  Cohort Starts : jan 28 </br></br>
+							 <span class="more-text">
+							</br> 
+							  Live Classes : 5-10 hours a week  </br>
+						 	  Self-learning : 120 videos
+							  Guest-faculty : 10 classes   </br>  </br>
+
+							  Physical certicate from Purdue
+						 	  4 capstone projects  </br>
+						 	</span>
+							<a class="toggle" style="color: red;">Read More</a>
+
+						</p>		
+					</div>	
+				</div>
+
+				<h2>FEBRUARY 2021</h2>
+				<div class="event_title pt-4 ">
+					<h3>Full Stack Java Developer </h3>
+					<div class="event_date pb-3 ">
+						<span class="font1">feb 04 - feb 14</span></br>
+						
+					</div>
+					<div class="event_img " >
+						<img src="images/abbb.jpg">
+					</div>
+					<div class="event_content">
+						<p class="text-justify">	
+							&nbsp; &nbsp; &nbsp; &nbsp; Full Stack Java Developer from Caltech 
+						</p>
+							  Duration : 12 Months </br>
+							  Cohort Starts : feb 04 </br></br>
+							 <span class="more-text">
+							</br> 
+							  Live Classes : 5-10 hours a week  
+						 	  Self-learning : 120 videos
+							  Guest-faculty : 10 classes   </br>  </br>
+
+							  Physical certicate from Caltech
+						 	  4 capstone projects  </br>
+						 	</span>
+							<a class="toggle" style="color: red;">Read More</a>
+
+						</p>		
+					</div>	
+				</div>
+				<div class="event_title pt-4 ">
+					<h3>Post Graduate in Data Science </h3>
+					<div class="event_date pb-3 ">
+						<span class="font1">feb 10 - feb 20</span></br>
+						
+					</div>
+					<div class="event_img " >
+						<img src="images/abbb.jpg">
+					</div>
+					<div class="event_content">
+						<p class="text-justify">	
+							&nbsp; &nbsp; &nbsp; &nbsp; Post Graduate program from Purdue University 
+						</p>
+							  Duration : 24 Months </br>
+							  Cohort Starts : feb 10 </br></br>
+							 <span class="more-text">
+							</br> 
+							  Live Classes : 5-10 hours a week  
+						 	  Self-learning : 120 videos
+							  Guest-faculty : 10 classes   </br>  </br>
+
+							  Physical certicate from Purdue
+						 	  4 capstone projects  </br>
+						 	</span>
+							<a class="toggle" style="color: red;">Read More</a>
+
+						</p>		
+					</div>	
+				</div>
+				<div class="event_title pt-4 ">
+					<h3>Post Graduate in Data Analysis</h3>
+					<div class="event_date pb-3 ">
+						<span class="font1">feb 14 - feb 24</span></br>
+						
+					</div>
+					<div class="event_img " >
+						<img src="images/abbb.jpg">
+					</div>
+					<div class="event_content">
+						<p class="text-justify">	
+							&nbsp; &nbsp; &nbsp; &nbsp; Post Graduate program from Purdue University 
+						</p>
+							  Duration : 24 Months </br>
+							  Cohort Starts : feb 14 </br></br>
+							 <span class="more-text">
+							</br> 
+							  Live Classes : 5-10 hours a week </br> 
+						 	  Self-learning : 120 videos
+							  Guest-faculty : 10 classes   </br>  </br>
+
+							  Physical certicate from Purdue
+						 	  4 capstone projects  </br>
+						 	</span>
+							<a class="toggle" style="color: red;">Read More</a>
+
+						</p>		
+					</div>	
+				</div>
+				<div class="event_title pt-4 ">
+					<h3>Certified Scrum Master </h3>
+					<div class="event_date pb-3 ">
+						<span class="font1">feb 20 - feb 30</span></br>
+						
+					</div>
+					<div class="event_img " >
+						<img src="images/abbb.jpg">
+					</div>
+					<div class="event_content">
+						<p class="text-justify">	
+							&nbsp; &nbsp; &nbsp; &nbsp; Certificatiomn from simplylearn 
+						</p>
+							  Duration : 12 Months </br>
+							  Cohort Starts : feb 20 </br></br>
+							 <span class="more-text">
+							</br> 
+							  Live Classes : 5-10 hours a week  
+						 	  Self-learning : 120 videos
+							  Guest-faculty : 10 classes   </br>  </br>
+
+							  Physical certicate from Caltech
+						 	  4 capstone projects  </br>
+						 	</span>
+							<a class="toggle" style="color: red;">Read More</a>
+
+						</p>		
+					</div>	
+				</div>
+				<div class="event_title pt-4 ">
+					<h3>Post Graduate in Business Analytics</h3>
+					<div class="event_date pb-3 ">
+						<span class="font1">feb 24 - mar 31</span></br>
+						
+					</div>
+					<div class="event_img " >
+						<img src="images/abbb.jpg">
+					</div>
+					<div class="event_content">
+						<p class="text-justify">	
+							&nbsp; &nbsp; &nbsp; &nbsp; Post Graduate program from IBM 
+						</p>
+							  Duration : 24 Months </br>
+							  Cohort Starts : feb 24 </br></br>
+							 <span class="more-text">
+							</br> 
+							  Live Classes : 5-10 hours a week  
+						 	  Self-learning : 120 videos
+							  Guest-faculty : 10 classes   </br>  </br>
+
+							  Physical certicate from IBM
+						 	  4 capstone projects  </br>
+						 	</span>
+							<a class="toggle" style="color: red;">Read More</a>
+
+						</p>		
+					</div>	
+				</div>
+
+				<h2>MARCH 2021</h2>
+				<<div class="event_title pt-4 ">
+					<h3>Post Graduate in Lean six sigma</h3>
+					<div class="event_date pb-3 ">
+						<span class="font1">mar 04 - mar 10</span></br>
+						
+					</div>
+					<div class="event_img " >
+						<img src="images/abbb.jpg">
+					</div>
+					<div class="event_content">
+						<p class="text-justify">	
+							&nbsp; &nbsp; &nbsp; &nbsp; Post Graduate program from Caltech 
+						</p>
+							  Duration : 24 Months </br>
+							  Cohort Starts : mar  04 </br></br>
+							 <span class="more-text">
+							</br> 
+							  Live Classes : 5-10 hours a week  
+						 	  Self-learning : 120 videos
+							  Guest-faculty : 10 classes   </br>  </br>
+
+							  Physical certicate from Caltech
+						 	  4 capstone projects  </br>
+						 	</span>
+							<a class="toggle" style="color: red;">Read More</a>
+
+						</p>		
+					</div>	
+				</div>
+				<div class="event_title pt-4 ">
+					<h3>Post Graduate in Digital Marketing</h3>
+					<div class="event_date pb-3 ">
+						<span class="font1">mar 06- mar 14</span></br>
+						
+					</div>
+					<div class="event_img " >
+						<img src="images/abbb.jpg">
+					</div>
+					<div class="event_content">
+						<p class="text-justify">	
+							&nbsp; &nbsp; &nbsp; &nbsp; Post Graduate program from Microsoft 
+						</p>
+							  Duration : 24 Months </br>
+							  Cohort Starts : mar 06 </br></br>
+							 <span class="more-text">
+							</br> 
+							  Live Classes : 5-10 hours a week  
+						 	  Self-learning : 120 videos
+							  Guest-faculty : 10 classes   </br>  </br>
+
+							  Physical certicate from Microsoft
+						 	  4 capstone projects  </br>
+						 	</span>
+							<a class="toggle" style="color: red;">Read More</a>
+
+						</p>		
+					</div>	
+				</div>
+				<div class="event_title pt-4 ">
+					<h3>Post Graduate in Digital Marketing and Analytics</h3>
+					<div class="event_date pb-3 ">
+						<span class="font1">mar 08 - mar 20 </span></br>
+						
+					</div>
+					<div class="event_img " >
+						<img src="images/abbb.jpg">
+					</div>
+					<div class="event_content">
+						<p class="text-justify">	
+							&nbsp; &nbsp; &nbsp; &nbsp; Post Graduate program from Caltech 
+						</p>
+							  Duration : 24 Months </br>
+							  Cohort Starts : mar 08 </br></br>
+							 <span class="more-text">
+							</br> 
+							  Live Classes : 5-10 hours a week  
+						 	  Self-learning : 120 videos
+							  Guest-faculty : 10 classes   </br>  </br>
+
+							  Physical certicate from Caltech
+						 	  4 capstone projects  </br>
+						 	</span>
+							<a class="toggle" style="color: red;">Read More</a>
+
+						</p>		
+					</div>	
+				</div>
+				<h2>June 2021</h2>
+				<div class="event_title pt-4 ">
+					<h3>Post Graduate in Data Engineering </h3>
+					<div class="event_date pb-3 ">
+						<span class="font1">jun 06 - jun 16</span></br>
+						
+					</div>
+					<div class="event_img " >
+						<img src="images/abbb.jpg">
+					</div>
+					<div class="event_content">
+						<p class="text-justify">	
+							&nbsp; &nbsp; &nbsp; &nbsp; Post Graduate program from IBM 
+						</p>
+							  Duration : 24 Months </br>
+							  Cohort Starts : jun 06 </br></br>
+							 <span class="more-text">
+							</br> 
+							  Live Classes : 5-10 hours a week  
+						 	  Self-learning : 120 videos
+							  Guest-faculty : 10 classes   </br>  </br>
+
+							  Physical certicate from IBM
+						 	  4 capstone projects  </br>
+						 	</span>
+							<a class="toggle" style="color: red;">Read More</a>
+
+						</p>		
+					</div>	
+				</div>
+				<div class="event_title pt-4 ">
+					<h3>Post Graduate in Advanced Cyber Security </h3>
+					<div class="event_date pb-3 ">
+						<span class="font1">jun 10 - jun 20 </span></br>
+						
+					</div>
+					<div class="event_img " >
+						<img src="images/abbb.jpg">
+					</div>
+					<div class="event_content">
+						<p class="text-justify">	
+							&nbsp; &nbsp; &nbsp; &nbsp; Post Graduate program from Caltech 
+						</p>
+							  Duration : 24 Months </br>
+							  Cohort Starts : jun 14 </br></br>
+							 <span class="more-text">
+							</br> 
+							  Live Classes : 5-10 hours a week  
+						 	  Self-learning : 120 videos
+							  Guest-faculty : 10 classes   </br>  </br>
+
+							  Physical certicate from Caltech
+						 	  4 capstone projects  </br>
+						 	</span>
+							<a class="toggle" style="color: red;">Read More</a>
+
+						</p>		
+					</div>	
+				</div>
+				<h2>December 2021</h2>
+				<div class="event_title pt-4 ">
+					<h3>Masters Program in Big Data Engineering </h3>
+					<div class="event_date pb-3 ">
+						<span class="font1">dec 05 -dec 10</span></br>
+						
+					</div>
+					<div class="event_img " >
+						<img src="images/abbb.jpg">
+					</div>
+					<div class="event_content">
+						<p class="text-justify">	
+							&nbsp; &nbsp; &nbsp; &nbsp; Post Graduate program from Microsoft 
+						</p>
+							  Duration : 24 Months </br>
+							  Cohort Starts : dec 15  </br></br>
+							 <span class="more-text">
+							</br> 
+							  Live Classes : 5-10 hours a week  
+						 	  Self-learning : 120 videos
+							  Guest-faculty : 10 classes   </br>  </br>
+
+							  Physical certicate from Microsoft
+						 	  4 capstone projects  </br>
+						 	</span>
+							<a class="toggle" style="color: red;">Read More</a>
+
+						</p>		
+					</div>	
+				</div>
+				<div class="event_title pt-4 ">
+					<h3>Master's Program in Agile Scrum Master </h3>
+					<div class="event_date pb-3 ">
+						<span class="font1">dec 10 - dec 20</span></br>
+						
+					</div>
+					<div class="event_img " >
+						<img src="images/abbb.jpg">
+					</div>
+					<div class="event_content">
+						<p class="text-justify">	
+							&nbsp; &nbsp; &nbsp; &nbsp; Post Graduate program from Caltech 
+						</p>
+							  Duration : 24 Months </br>
+							  Cohort Starts :dec 15 </br></br>
+							 <span class="more-text">
+							</br> 
+							  Live Classes : 5-10 hours a week  
+						 	  Self-learning : 120 videos
+							  Guest-faculty : 10 classes   </br>  </br>
+
+							  Physical certicate from Caltech
+						 	  4 capstone projects  </br>
+						 	</span>
+							<a class="toggle" style="color: red;">Read More</a>
+
+						</p>		
+					</div>	
+				</div>
+			</div>
+		</div>
+	</section>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$(".toggle").click(function () {
+				$(this).prev().toggle();
+				var ele = $(this).text();
+				if (ele == "Read More") {
+					$(this).text("Read Less");
+					slideDown(500);
+				}
+				else {
+					$(this).text("Read More");
+					slideUp(500);
+				}
+			});
+		});
+	</script>
+	<!--footer-->
+	<section>
+		<div class="container-fluid footer pl-5 pr-5 " style="background-color: #021c3c; padding-top: 65px;">
+		  <div class="row pb-5">
+			<div class="col-lg-3">
+			  <h4 class="text-center futer-text"> Map</h4>
+			  <iframe class="" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d60059.627865941715!2d85.821483!3d19.80918!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a19c4180256e495%3A0x496a9d8b30c1fad7!2sPuri%2C%20Odisha%2C%20India!5e0!3m2!1sen!2sus!4v1582097046697!5m2!1sen!2sus" width="100%" height="270px" frameborder="0" style="border: 2px solid black; border-radius: 7px;" allowfullscreen=""></iframe>
+			</div>
+			<div class="col-lg-3">
+			  <h4 class=" futer-text text-center">Quick Links</h4>
+			  <ul class="" style="margin-left: 60px;">
+				<li>
+				  <a >Map</a>
+				</li>
+				<li>
+				  <a>Partner</a>
+				<li>
+				  <a >About Us</a>
+				</li>
+				<li>
+				  <a >Find courses</a>
+				</li>
+				<li>
+				  <a > Deals & Offers</a>
+				</li>
+				<li>
+				  <a >EMI Options </a>
+				</li>
+				<li>
+				  <a >Terms And Conditions</a>
+				</li>
+			  </ul>
+			</div>
+			<div class="col-lg-3">
+			  <h4 class="futer-text text-center">Attraction</h4>
+			  <ul class="" style="margin-left: 60px;">
+				<li>
+				  <a >Certification  </a>
+				</li>
+				<li>
+				  <a >Master's program</a>
+				</li>
+				<li>
+				  <a >Scholarships</a>
+				</li>
+				<li>
+				  <a >Skill up courses</a>
+				</li>
+				<li>
+				  <a >Webinars </a>
+				</li>
+				<li>
+				  <a >Capstone project </a>
+				</li>    
+			  </ul>
+			</div>
+			
+			<div class="col-lg-3">
+			  <h4 class="text-center futer-text">Upcoming Cohort</h4>
+			  <div class="" style="border: 5px solid rgb(116, 18, 94); color: rgb(12, 2, 2); background-color:  rgba(250, 250, 250, 0.774);">
+				<marquee behavior="scroll" direction="up" height="270px;" scrollamount="2" onmouseover="this.stop()" onmouseout="this.start()">
+			  
+				  <div class=" ml-4 mr-4" style="box-shadow: 2px 2px 2px 5px gray; background: rgb(116, 18, 94);">
+					<p class="text-center p-2" style="">Full stack java </p>
+				  </div>
+				  <div class="ml-4 mr-4" style="box-shadow: 2px 2px 2px 5px gray; background: rgb(116, 18, 94);">
+					<p class="text-center p-2" style="">full stack MEAN</p>
+				  </div>
+				  <div class="ml-4 mr-4" style="box-shadow: 2px 2px 2px 5px gray; background: rgb(116, 18, 94);">
+					<p class="text-center p-2" style="">Cyber Security</p>
+				  </div>
+				  <div class="ml-4 mr-4" style="box-shadow: 2px 2px 2px 5px gray; background: rgb(116, 18, 94);">
+					<p class="text-center p-2" style="">DevOPPs</p>
+				  </div>
+				  <div class="ml-4 mr-4" style="box-shadow: 2px 2px 2px 5px gray; background: rgb(116, 18, 94);">
+					<p class="text-center p-2" style="">Blockchain</p>
+				  </div>
+				  <div class="ml-4 mr-4" style="box-shadow: 2px 2px 2px 5px gray; background: rgb(116, 18, 94);">
+					<p class="text-center p-2" style="">Machine Learning </p>
+				  </div>
+				  <div class="ml-4 mr-4" style="box-shadow: 2px 2px 2px 5px gray; background: rgb(116, 18, 94);">
+					<p class="text-center p-2" style="">Artificial inteligence </p>
+				  </div>
+				</marquee>
+			  </div>   
+			</div>
+		  </div> 
+		  <div class="row " style="border-top: 1px solid #3c4450; padding: 30px; color: #636b75; font-size: 14px; font-weight: 400;">
+			<div class="footer-copyright text-center col-lg-12">Copyright ©2020 ALL rights reserved | This website made by 
+				<a href="https://guruprasadnayak.com/" class="" style="text-decoration: none; color: #636b75;">Guruprasad Nayak</a>
+			</div>
+		  </div>
+		</div>
+	  <!-- Footer -->
+	  </section>
+	  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+	  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+	  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	</body>
+	</html> 
+</body>
+</html>
